@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/text_word"/>
+
+        <TextView
+            android:id="@+id/fragment_detail_textview_word"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="error:uninitializedword_in_layout"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/text_meaning"/>
+
+        <TextView
+            android:id="@+id/fragment_detail_textview_meaning"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="error:uninitializedmeaning_in_layout"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/text_example"/>
+
+        <TextView
+            android:id="@+id/fragment_detail_textview_example"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="error:error:uninitializedsample_in_layout"/>
+    </TableRow>
+</TableLayout>
