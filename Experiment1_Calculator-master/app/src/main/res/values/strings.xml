@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">计算器</string>
+    <string name="action_convert">转换工具</string>
+    <string name="action_main">计算器</string>
+    <string name="action_about">关于</string>
+    <string name="about_title">关于本软件</string>
+    <string name="about_message">感谢，郝保水老师崔展齐老师！\n</string>
+    <string name="add1s">孙晓辰</string>
+</resources>
